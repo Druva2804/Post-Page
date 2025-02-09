@@ -20,14 +20,17 @@ app.get("/",(req,res)=>{
 
 let posts=[
     {
+        id:1,
         username:"Druv",
         content:"pending"
     },
     {
+        id:2,
         username:"Vivekan",
         content:"blogging"
     },
     {
+        id:3,
         username:"Shraan",
         content:"Acting"
     },
@@ -48,4 +51,10 @@ app.post("/posts",(req,res)=>{
     // res.send("post request received");
     // console.log(req.body);
     // res.send("Data is received..");
+});
+
+app.get("/posts/:id",(req,res)=>{
+    let {id}=req.params;
+    let post=posts.find((p)=>id==p.id);
+    res.render("show.ejs",{post});
 });
