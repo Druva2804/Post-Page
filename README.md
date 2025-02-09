@@ -10,3 +10,12 @@ This repository contains projects written in multiple languages:
 - EJS(Embedded Javascript Template)
 - Node.js
 - API-RestFul API
+
+
+Node.js:-
+1)It is a Runtime Environment which is used to run javascript code outside the web browser.
+2)It is also called as server side programming.
+
+
+
+
