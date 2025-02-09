@@ -7,5 +7,6 @@ This repository contains projects written in multiple languages:
 
 - 🌍 JavaScript (`JavaScript/app.js`)
 - ☕ Express.js
+- EJS(Embedded Javascript Template)
 - Node.js
 - API-RestFul API
